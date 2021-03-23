@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371ECD962609C05000D5ECED /* HorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371ECD952609C05000D5ECED /* HorizontalCell.swift */; };
+		371ECD992609C0C500D5ECED /* HorizontalCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371ECD982609C0C500D5ECED /* HorizontalCellVM.swift */; };
 		37245AE426007A4900245971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245AE326007A4900245971 /* AppDelegate.swift */; };
 		37245AE626007A4900245971 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245AE526007A4900245971 /* SceneDelegate.swift */; };
-		37245AE826007A4900245971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245AE726007A4900245971 /* ViewController.swift */; };
-		37245AEB26007A4900245971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37245AE926007A4900245971 /* Main.storyboard */; };
+		37245AE826007A4900245971 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245AE726007A4900245971 /* MainController.swift */; };
 		37245AED26007A4B00245971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37245AEC26007A4B00245971 /* Assets.xcassets */; };
 		37245AF026007A4B00245971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37245AEE26007A4B00245971 /* LaunchScreen.storyboard */; };
+		37245B2F2603364300245971 /* VerticalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B2E2603364300245971 /* VerticalCellView.swift */; };
+		37245B332603385900245971 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B322603385900245971 /* Recipe.swift */; };
+		37245B36260339C400245971 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B35260339C400245971 /* Observable.swift */; };
+		37245B3D2604617100245971 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37245B3C2604617100245971 /* SnapKit */; };
+		37245B402604755800245971 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B3F2604755800245971 /* RecipesViewModel.swift */; };
+		37245B4726047C8300245971 /* RecipeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B4626047C8300245971 /* RecipeDetailController.swift */; };
+		37245B4A26049AD200245971 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B4926049AD200245971 /* RecipeDetailViewModel.swift */; };
+		37245B512605F53200245971 /* VerticalCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B502605F53200245971 /* VerticalCellVM.swift */; };
+		37245B5C260705EA00245971 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 37245B5B260705EA00245971 /* Kingfisher */; };
+		37245B5F2607997500245971 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B5E2607997400245971 /* UIFactory.swift */; };
+		37245B672608879400245971 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 37245B662608879400245971 /* Realm */; };
+		37245B692608879400245971 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 37245B682608879400245971 /* RealmSwift */; };
+		37245B6C2608D02700245971 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37245B6B2608D02600245971 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371ECD952609C05000D5ECED /* HorizontalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCell.swift; sourceTree = "<group>"; };
+		371ECD982609C0C500D5ECED /* HorizontalCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCellVM.swift; sourceTree = "<group>"; };
 		37245AE026007A4900245971 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37245AE326007A4900245971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37245AE526007A4900245971 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37245AE726007A4900245971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37245AEA26007A4900245971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37245AE726007A4900245971 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		37245AEC26007A4B00245971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37245AEF26007A4B00245971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37245AF126007A4B00245971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37245B2E2603364300245971 /* VerticalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCellView.swift; sourceTree = "<group>"; };
+		37245B322603385900245971 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		37245B35260339C400245971 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		37245B3F2604755800245971 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		37245B4626047C8300245971 /* RecipeDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailController.swift; sourceTree = "<group>"; };
+		37245B4926049AD200245971 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		37245B502605F53200245971 /* VerticalCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCellVM.swift; sourceTree = "<group>"; };
+		37245B5E2607997400245971 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		37245B6B2608D02600245971 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +55,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37245B692608879400245971 /* RealmSwift in Frameworks */,
+				37245B672608879400245971 /* Realm in Frameworks */,
+				37245B5C260705EA00245971 /* Kingfisher in Frameworks */,
+				37245B3D2604617100245971 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371ECD9B2609C41400D5ECED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				37245B2E2603364300245971 /* VerticalCellView.swift */,
+				371ECD952609C05000D5ECED /* HorizontalCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		37245AD726007A4900245971 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +93,64 @@
 		37245AE226007A4900245971 /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				37245B5326063F5E00245971 /* Helper */,
+				37245B2D2603360700245971 /* Views */,
+				37245B2C2603356600245971 /* ViewModels */,
 				37245AE326007A4900245971 /* AppDelegate.swift */,
 				37245AE526007A4900245971 /* SceneDelegate.swift */,
-				37245AE726007A4900245971 /* ViewController.swift */,
-				37245AE926007A4900245971 /* Main.storyboard */,
+				37245B2A2603354A00245971 /* Models */,
+				37245B272603349400245971 /* Controllers */,
 				37245AEC26007A4B00245971 /* Assets.xcassets */,
 				37245AEE26007A4B00245971 /* LaunchScreen.storyboard */,
 				37245AF126007A4B00245971 /* Info.plist */,
 			);
 			path = Recipes;
+			sourceTree = "<group>";
+		};
+		37245B272603349400245971 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37245AE726007A4900245971 /* MainController.swift */,
+				37245B4626047C8300245971 /* RecipeDetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		37245B2A2603354A00245971 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37245B322603385900245971 /* Recipe.swift */,
+				37245B35260339C400245971 /* Observable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37245B2C2603356600245971 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				37245B3F2604755800245971 /* RecipesViewModel.swift */,
+				37245B4926049AD200245971 /* RecipeDetailViewModel.swift */,
+				37245B502605F53200245971 /* VerticalCellVM.swift */,
+				371ECD982609C0C500D5ECED /* HorizontalCellVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		37245B2D2603360700245971 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				371ECD9B2609C41400D5ECED /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37245B5326063F5E00245971 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				37245B5E2607997400245971 /* UIFactory.swift */,
+				37245B6B2608D02600245971 /* StorageManager.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +169,12 @@
 			dependencies = (
 			);
 			name = Recipes;
+			packageProductDependencies = (
+				37245B3C2604617100245971 /* SnapKit */,
+				37245B5B260705EA00245971 /* Kingfisher */,
+				37245B662608879400245971 /* Realm */,
+				37245B682608879400245971 /* RealmSwift */,
+			);
 			productName = Recipes;
 			productReference = 37245AE026007A4900245971 /* Recipes.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +202,11 @@
 				Base,
 			);
 			mainGroup = 37245AD726007A4900245971;
+			packageReferences = (
+				37245B3B2604617100245971 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				37245B5A260705E900245971 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				37245B652608879300245971 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 37245AE126007A4900245971 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +223,6 @@
 			files = (
 				37245AF026007A4B00245971 /* LaunchScreen.storyboard in Resources */,
 				37245AED26007A4B00245971 /* Assets.xcassets in Resources */,
-				37245AEB26007A4900245971 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +233,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37245AE826007A4900245971 /* ViewController.swift in Sources */,
+				37245B6C2608D02700245971 /* StorageManager.swift in Sources */,
+				37245B5F2607997500245971 /* UIFactory.swift in Sources */,
+				37245AE826007A4900245971 /* MainController.swift in Sources */,
+				371ECD992609C0C500D5ECED /* HorizontalCellVM.swift in Sources */,
+				37245B402604755800245971 /* RecipesViewModel.swift in Sources */,
+				37245B36260339C400245971 /* Observable.swift in Sources */,
+				37245B4A26049AD200245971 /* RecipeDetailViewModel.swift in Sources */,
+				37245B4726047C8300245971 /* RecipeDetailController.swift in Sources */,
+				37245B332603385900245971 /* Recipe.swift in Sources */,
+				371ECD962609C05000D5ECED /* HorizontalCell.swift in Sources */,
 				37245AE426007A4900245971 /* AppDelegate.swift in Sources */,
+				37245B2F2603364300245971 /* VerticalCellView.swift in Sources */,
 				37245AE626007A4900245971 /* SceneDelegate.swift in Sources */,
+				37245B512605F53200245971 /* VerticalCellVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		37245AE926007A4900245971 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37245AEA26007A4900245971 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37245AEE26007A4B00245971 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q5QZZ9XSR;
 				INFOPLIST_FILE = Recipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = boyko.gri.Recipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +408,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q5QZZ9XSR;
 				INFOPLIST_FILE = Recipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = boyko.gri.Recipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +442,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37245B3B2604617100245971 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		37245B5A260705E900245971 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+		37245B652608879300245971 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37245B3C2604617100245971 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37245B3B2604617100245971 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		37245B5B260705EA00245971 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37245B5A260705E900245971 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		37245B662608879400245971 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37245B652608879300245971 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		37245B682608879400245971 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37245B652608879300245971 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37245AD826007A4900245971 /* Project object */;
 }
