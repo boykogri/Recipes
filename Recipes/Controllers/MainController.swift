@@ -23,6 +23,10 @@ class MainController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if viewModel.recipes.value?.count == 0{
+            loadingIndicator.startAnimating()
+        }
         DispatchQueue.main.async {
             self.tableView.reloadData()
             self.viewModel.fetchRecipes()
@@ -33,7 +37,7 @@ class MainController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     override func loadView() {
         super.loadView()
-
+        
         setupUI()
         bindToViewModel()
     }
@@ -100,12 +104,7 @@ class MainController: UIViewController, UITableViewDelegate, UITableViewDataSour
             make.height.equalTo(50)
             make.width.equalTo(50)
         }
-        if viewModel.recipes.value?.count == 0{
-            print("Start animating")
-            DispatchQueue.main.async {
-                self.loadingIndicator.startAnimating()
-            }
-        }
+
 
     }
     
