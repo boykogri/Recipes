@@ -15,7 +15,6 @@ class MainController: UIViewController, UITableViewDelegate, UITableViewDataSour
     private let cellId = "RecipeCell"
     private let viewModel = RecipesViewModel()
 
-    
     private lazy var loadingIndicator = UIActivityIndicatorView(style: .large)
     
     private let searchController = UISearchController(searchResultsController: nil)
